@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameController.cs" Line="57" Column="2" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Mover.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Evasive.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DestroyByTime.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DestroyByBoundary.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WeaponController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WeaponController2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WeaponController3.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WeaponController4.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DestoryByContact.cs" Line="39" Column="12" />
+      <File FileName="Assets/Scripts/RandomRotator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BGScroller.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Evasive3.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

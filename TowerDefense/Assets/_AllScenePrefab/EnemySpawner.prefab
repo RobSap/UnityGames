@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &125872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 418616}
+  - 114: {fileID: 11477866}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &418616
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.92, y: 0.5, z: 10.17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11477866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2d50450a25b4460a8689a9186d90b5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  graphicalPathObject: {fileID: 109342, guid: 5f5c13ae1323e4e5da9f7cd288810f88, type: 2}
+  waveCount: 3
+  spawnList:
+  - {fileID: 112214, guid: 537dfd4dec691492f9b81cc3cb130070, type: 2}
+  - {fileID: 128666, guid: b00d8b9f77ecf44b2a536918f09f5cb8, type: 2}
+  - {fileID: 100856, guid: f24dcde34072a4e4981679f4fface076, type: 2}
+  - {fileID: 189570, guid: accc39801b6014413a4a981f4b257afc, type: 2}
+  - {fileID: 129428, guid: b0865c732e3d74ce4939b553711767c7, type: 2}
+  - {fileID: 174554, guid: eed34ffb10c5b49ae836de6e557ad77f, type: 2}
+  - {fileID: 153722, guid: 149b0ccfe15704ae3ac0a610db7c1242, type: 2}
+  - {fileID: 112214, guid: 537dfd4dec691492f9b81cc3cb130070, type: 2}
+  - {fileID: 112214, guid: 537dfd4dec691492f9b81cc3cb130070, type: 2}
+  - {fileID: 112214, guid: 537dfd4dec691492f9b81cc3cb130070, type: 2}
+  spawnTime: 6
+  delayInitial: 3.5
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 125872}
+  m_IsPrefabParent: 1
